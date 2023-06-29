@@ -3,12 +3,12 @@
 A docker image containing a cross-compiler for compiling kernels for i686-elf, based on the osdev tutorials:
 http://wiki.osdev.org/GCC_Cross-Compiler and http://wiki.osdev.org/Bare_Bones_with_NASM
 
-The toolchain uses Binutils 2.29 and GCC 7.2.0, both of which you'll need to download separately and paste into the toolchain folder before building this image.
+The toolchain uses Binutils 2.40 and GCC 2.40, both of which you'll need to download separately and paste into the toolchain folder before building this image.
 
 It also contains GRUB2 to build bootable iso images using grub-mkrescue.
 
 ## Building
-Add binutils-2.29.tar.gz and gcc-7.2.0.targ.gz to the toolchain folder
+Add binutils-2.40.tar.gz and gcc-10.2.0.targ.gz to the toolchain folder
 Build using: docker-compose-build
 
 ## Usage
